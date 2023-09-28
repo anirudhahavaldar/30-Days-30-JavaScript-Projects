@@ -4,14 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="quote-box">
-      <h2>Quote of the day</h2>
-      <blockquote>Loading...</blockquote>
-      <span>Loading...</span>
+      <div class="title">
+        <h2>Quote of the day</h2>
+      </div>
+      <blockquote id="quote">
+        Give a man a fish and you feed him for a day. Teach him how to fish and
+        you feed him for a lifetime.
+      </blockquote>
+      <span id="author">Laozi</span>
+      <div class="btn-container">
+        <button id="new-quote-btn">New Quote</button>
+        <button id="tweet-btn">
+          <i class="fa-brands fa-x-twitter"></i>Tweet
+        </button>
+      </div>
     </div>
     <script src="script.js"></script>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
   </body>
 </html>
