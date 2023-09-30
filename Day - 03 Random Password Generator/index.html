@@ -17,10 +17,15 @@
   <body>
     <div class="container">
       <h1 class="title">Generate a <span>Random Password</span></h1>
-      <div>
-        <input class="password-area" type="text" />
+
+      <div class="password-container">
+        <p id="password" class="password-area"></p>
+        <span id="copy"><i class="fa-solid fa-copy copy-icon"></i></span>
       </div>
-      <button><i class="fa-solid fa-bolt"></i>Generate Password</button>
+
+      <button id="generate-btn">
+        <i class="fa-solid fa-bolt"></i>Generate Password
+      </button>
     </div>
     <script src="script.js" type="module"></script>
   </body>
