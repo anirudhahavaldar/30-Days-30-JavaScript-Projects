@@ -48,9 +48,9 @@ git checkout -b feature/day-1-project
 Here's a list of project ideas for each day of the challenge:
 
 1. **Day 1**: To-Do List.
-
-
-
+2. **Day 2**: Quote Generator.
+3. **Day 3**: Random Password Generator.
+4. **Day 4**: QR Code Generator.
 
 Feel free to modify the ideas or come up with your own projects. The goal is to challenge yourself and have fun while coding! 🤓
 
